@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
-from pyaadhaar.decode import AadhaarSecureQr
-from pyaadhaar.utils import isSecureQr
+from pyaadhaar_patch.decode import AadhaarSecureQr
+from pyaadhaar_patch.utils import isSecureQr
 
 app = Flask(__name__)
 
