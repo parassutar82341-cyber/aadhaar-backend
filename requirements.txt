@@ -1,6 +1,6 @@
-flask
-gunicorn
-pyaadhaar
+flask==2.3.3
+gunicorn==21.2.0
+pyaadhaar==2.0.2
 numpy==1.23.5
 opencv-python==4.5.5.64
 pillow
